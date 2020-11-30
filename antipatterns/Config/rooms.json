@@ -1,0 +1,10 @@
+{
+  "init_room" : {
+    "file_name" : "../Config/Rooms/init_room.json",
+    "exits" : "../Config/Exits/init_room.json"
+  },
+  "second_room" : {
+    "file_name" : "../Config/Rooms/second_room.json",
+    "exits" : "../Config/Exits/second_room.json"
+  }
+}

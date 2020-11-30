@@ -1,0 +1,6 @@
+{
+  "enemies" : "../Config/unique_enemies.json",
+  "exits" : "../Config/unique_exits.json",
+  "tiles" : "../Config/unique_tiles.json",
+  "textures" : "../Config/textures.json"
+}

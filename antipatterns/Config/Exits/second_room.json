@@ -1,0 +1,16 @@
+[
+  {
+    "type" : 0,
+    "settings" : {
+      "pos_x": 750,
+      "pos_y": 127,
+      "player_pos_x" : 650,
+      "player_pos_y" : 500,
+      "offset_x": 0,
+      "offset_y": 0,
+      "id_from": 1,
+      "id_to": 0,
+      "exit_type": 0
+    }
+  }
+]

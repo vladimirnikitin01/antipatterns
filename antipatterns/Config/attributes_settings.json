@@ -1,0 +1,47 @@
+{
+  "names_to_ids": {
+    "0" : "vigor",
+    "1" : "strength",
+    "2" : "dexterity",
+    "3" : "intelligence",
+    "4" : "faith",
+    "5" : "luck",
+    "6" : "max_hp",
+    "7" : "max_mana",
+    "8" : "phys_armor",
+    "9" : "mag_armor",
+    "10" : "attack_speed",
+    "11" : "base_damage",
+    "12" : "crit_chance",
+    "13" : "curr_hp",
+    "14" : "curr_mana"
+  },
+  "dependence" : {
+    "max_hp" : ["vigor"],
+    "max_mana" : ["intelligence", "faith"],
+    "phys_armor" : ["vigor", "strength", "dexterity"],
+    "mag_armor" : ["faith", "vigor", "intelligence"],
+    "attack_speed" : ["dexterity", "strength", "intelligence"],
+    "base_damage" : ["strength", "dexterity"],
+    "crit_chance" : ["luck", "dexterity"],
+    "curr_hp" : ["max_hp"],
+    "curr_mana" : ["curr_mana"]
+  },
+  "boundaries" : {
+    "vigor" : [0, "+inf"],
+    "strength" : [0, "+inf"],
+    "dexterity" : [0, "+inf"],
+    "intelligence" : [0, "+inf"],
+    "faith" : [0, "+inf"],
+    "luck" : [0, "+inf"],
+    "max_hp" : [1, "+inf"],
+    "max_mana" : [1, "+inf"],
+    "phys_armor" : ["-inf", 1],
+    "mag_armor" : ["-inf", 1],
+    "attack_speed" : [0, "inf"],
+    "base_damage" : [0, "inf"],
+    "crit_chance" : [0, 1],
+    "curr_hp" : [0, 1],
+    "curr_mana" : [0, 1]
+  }
+}

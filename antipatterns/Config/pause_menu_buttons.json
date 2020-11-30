@@ -1,0 +1,28 @@
+[
+  {
+    "button_name" : "PLAY",
+    "button_pos" : [340, 200],
+    "button_rect" : [100, 60],
+    "button_text" : "Play",
+    "font_size" : 20,
+    "button_color_idle" : [30, 30, 30, 200],
+    "button_color_hover" : [30, 30, 30, 200],
+    "button_color_active" : [30, 30, 30, 200],
+    "font_color_idle" : [80, 80, 80, 100],
+    "font_color_hover" : [150, 150, 150, 200],
+    "font_color_active" : [150, 150, 150, 200]
+  },
+  {
+    "button_name" : "QUIT",
+    "button_pos" : [340, 300],
+    "button_rect" : [100, 60],
+    "button_text" : "Quit",
+    "font_size" : 20,
+    "button_color_idle" : [30, 30, 30, 200],
+    "button_color_hover" : [30, 30, 30, 200],
+    "button_color_active" : [30, 30, 30, 200],
+    "font_color_idle" : [80, 80, 80, 100],
+    "font_color_hover" : [150, 150, 150, 200],
+    "font_color_active" : [150, 150, 150, 200]
+  }
+]

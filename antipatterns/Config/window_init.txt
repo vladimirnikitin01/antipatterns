@@ -1,0 +1,6 @@
+antipatterns roguelike
+800 600
+60
+0
+0
+0

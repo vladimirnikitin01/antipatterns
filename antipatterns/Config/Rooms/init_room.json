@@ -1,0 +1,30 @@
+{
+  "enemy_system": {
+    "tile_size": [
+      62,
+      62
+    ],
+    "enemies": [
+      {
+        "type": "rat",
+        "pos": [
+          2,
+          2
+        ],
+        "level": 10
+      },
+      {
+        "type": "enemy_spawner",
+        "pos": [
+          3,
+          6
+        ],
+        "level": 3,
+        "type_to_spawn" : 2
+      }
+    ]
+  },
+  "tile_map": {
+    "tiles": "../Config/TileMaps/init_room.json"
+  }
+}

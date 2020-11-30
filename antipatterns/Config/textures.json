@@ -1,0 +1,7 @@
+{
+  "PLAYER" : "../Images/Sprites/Player/new_hero.png",
+  "EXITS" : "../Images/Exits/door_prototype.png",
+  "TILE_MAP" : "../Images/Tiles/temp_tileset.png",
+  "Rat" : "../Images/Sprites/Player/hero.png",
+  "EnemySpawner" : "../Images/Sprites/Player/hero.png"
+}

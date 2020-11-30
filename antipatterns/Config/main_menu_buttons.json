@@ -1,0 +1,41 @@
+[
+  {
+    "button_name" : "START_GAME",
+    "button_pos" : [340, 200],
+    "button_rect" : [120, 80],
+    "button_text" : "Start game",
+    "font_size" : 22,
+    "button_color_idle" : [30, 30, 30, 150],
+    "button_color_hover" : [30, 30, 30, 150],
+    "button_color_active" : [30, 30, 30, 150],
+    "font_color_idle" : [150, 150, 150, 200],
+    "font_color_hover" : [200, 200, 200, 200],
+    "font_color_active" : [200, 200, 200, 200]
+  },
+  {
+    "button_name" : "SETTINGS",
+    "button_pos" : [340, 300],
+    "button_rect" : [120, 80],
+    "button_text" : "Settings",
+    "font_size" : 22,
+    "button_color_idle" : [30, 30, 30, 150],
+    "button_color_hover" : [30, 30, 30, 150],
+    "button_color_active" : [30, 30, 30, 150],
+    "font_color_idle" : [150, 150, 150, 200],
+    "font_color_hover" : [200, 200, 200, 200],
+    "font_color_active" : [200, 200, 200, 200]
+  },
+  {
+    "button_name" : "END_GAME",
+    "button_pos" : [340, 400],
+    "button_rect" : [120, 80],
+    "button_text" : "Quit",
+    "font_size" : 22,
+    "button_color_idle" : [30, 30, 30, 150],
+    "button_color_hover" : [30, 30, 30, 150],
+    "button_color_active" : [30, 30, 30, 150],
+    "font_color_idle" : [150, 150, 150, 200],
+    "font_color_hover" : [200, 200, 200, 200],
+    "font_color_active" : [200, 200, 200, 200]
+  }
+]

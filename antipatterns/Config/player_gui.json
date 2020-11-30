@@ -1,0 +1,45 @@
+{
+  "hp_bar" : {
+    "width" : 10,
+    "height" : 3,
+    "pos_x" : 1,
+    "pos_y" : 5,
+    "back_fill_color" : [50, 50, 50, 200],
+    "inner_fill_color" : [200, 0, 0, 200],
+    "character_size" : 12,
+    "text_pos_x" : 2,
+    "text_pos_y" : 0.2
+  },
+  "mana_bar" : {
+    "width" : 10,
+    "height" : 3,
+    "pos_x" : 1,
+    "pos_y" : 8,
+    "back_fill_color" : [50, 50, 50, 200],
+    "inner_fill_color" : [0, 0, 200, 200],
+    "character_size" : 12,
+    "text_pos_x" : 2,
+    "text_pos_y" : 0.2
+  },
+  "exp_bar" : {
+    "width" : 8,
+    "height" : 3,
+    "pos_x" : 1,
+    "pos_y" : 11,
+    "back_fill_color" : [50, 50, 50, 200],
+    "inner_fill_color" : [0, 200, 0, 200],
+    "character_size" : 12,
+    "text_pos_x" : 2,
+    "text_pos_y" : 0.2
+  },
+  "level_bar" : {
+    "width" : 4,
+    "height" : 2,
+    "pos_x" : 1,
+    "pos_y" : 3,
+    "fill_color" : [0, 100, 80, 200],
+    "character_size" : 12,
+    "text_pos_x" : 1.0,
+    "text_pos_y" : 0
+  }
+}

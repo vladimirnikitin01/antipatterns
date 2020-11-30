@@ -1,0 +1,512 @@
+{
+  "tile_size": 62,
+  "Rat": {
+    "states": {
+      "aggro_radius": 500,
+      "attack_radius": 40
+    },
+    "enemy_settings": {
+      "physics_component": {
+        "acceleration": 3000,
+        "deceleration": 2000,
+        "max_velocity": 120
+      },
+      "graphics_component": {
+        "animations": {
+          "IDLE_DOWN": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 0,
+            "end_frame_x": 0,
+            "end_frame_y": 0,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "IDLE_UP": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 1,
+            "end_frame_x": 0,
+            "end_frame_y": 1,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "IDLE_LEFT": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 2,
+            "end_frame_x": 0,
+            "end_frame_y": 2,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "IDLE_RIGHT": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 3,
+            "end_frame_x": 0,
+            "end_frame_y": 3,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_DOWN": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 0,
+            "end_frame_x": 5,
+            "end_frame_y": 0,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_UP": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 1,
+            "end_frame_x": 5,
+            "end_frame_y": 1,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_LEFT": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 2,
+            "end_frame_x": 5,
+            "end_frame_y": 2,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_RIGHT": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 3,
+            "end_frame_x": 5,
+            "end_frame_y": 3,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          }
+        }
+      },
+      "hitbox_component": {
+        "width": 32,
+        "height": 64,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+      "attribute_component": {
+        "base_attributes": {
+          "vigor": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "strength": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "dexterity": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "intelligence": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "faith": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "luck": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          }
+        },
+        "dependant_attributes": {
+          "max_hp": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "max_mana": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "phys_armor": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "mag_armor": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "attack_speed": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "base_damage": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "crit_chance": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          }
+        },
+        "changing_attributes": {
+          "curr_hp": {},
+          "curr_mana": {}
+        }
+      },
+      "skill_component": {
+        "Bite": {
+          "cooldown": 1,
+          "cast_time": 0.3,
+          "range": 50,
+          "priority": 0,
+          "effects": [
+            {
+              "id": "curr_hp",
+              "type": "phys_damage",
+              "stats": {
+                "base_value": 10,
+                "multiplier": 0
+              },
+              "level_change": {
+                "delta_value": -1,
+                "multiplier": 0
+              }
+            },
+            {
+              "id": "curr_hp",
+              "type": "poison",
+              "stats": {
+                "base_value": -1,
+                "multiplier": 0
+              },
+              "level_change": {
+                "delta_value": 0,
+                "multiplier": 0
+              },
+              "optional" : {
+                "tick_time" : 2,
+                "time_to_expire": 10
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "EnemySpawner": {
+    "states": {
+      "aggro_radius": 500,
+      "attack_radius": 100
+    },
+    "enemy_settings": {
+      "physics_component": {
+        "max_velocity": 0
+      },
+      "graphics_component": {
+        "animations": {
+          "IDLE_DOWN": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 0,
+            "end_frame_x": 0,
+            "end_frame_y": 0,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "IDLE_UP": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 1,
+            "end_frame_x": 0,
+            "end_frame_y": 1,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "IDLE_LEFT": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 2,
+            "end_frame_x": 0,
+            "end_frame_y": 2,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "IDLE_RIGHT": {
+            "animation_time": 0,
+            "start_frame_x": 0,
+            "start_frame_y": 3,
+            "end_frame_x": 0,
+            "end_frame_y": 3,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_DOWN": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 0,
+            "end_frame_x": 5,
+            "end_frame_y": 0,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_UP": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 1,
+            "end_frame_x": 5,
+            "end_frame_y": 1,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_LEFT": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 2,
+            "end_frame_x": 5,
+            "end_frame_y": 2,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          },
+          "MOVING_RIGHT": {
+            "animation_time": 10,
+            "start_frame_x": 1,
+            "start_frame_y": 3,
+            "end_frame_x": 5,
+            "end_frame_y": 3,
+            "rect_params_x": 32,
+            "rect_params_y": 64
+          }
+        }
+      },
+      "hitbox_component": {
+        "width": 32,
+        "height": 64,
+        "offset_x": 0,
+        "offset_y": 0
+      },
+      "attribute_component": {
+        "base_attributes": {
+          "vigor": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "strength": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "dexterity": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "intelligence": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "faith": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "luck": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          }
+        },
+        "dependant_attributes": {
+          "max_hp": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "max_mana": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "phys_armor": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "mag_armor": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "attack_speed": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "base_damage": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          },
+          "crit_chance": {
+            "stats": {
+              "base_value": 10,
+              "multiplier": 0
+            },
+            "level_change": {
+              "delta_value": 3,
+              "multiplier": 0
+            }
+          }
+        },
+        "changing_attributes": {
+          "curr_hp": {},
+          "curr_mana": {
+          }
+        }
+      },
+      "skill_component": {
+      }
+    }
+  }
+}

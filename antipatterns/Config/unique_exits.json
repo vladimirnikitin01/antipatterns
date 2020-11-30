@@ -1,0 +1,13 @@
+{
+  "exits" : [
+    {
+      "type" : 0,
+      "x" : 0,
+      "y" : 0,
+      "width" : 50,
+      "height" : 100,
+      "hitbox_x" : 50,
+      "hitbox_y" : 100
+    }
+  ]
+}
